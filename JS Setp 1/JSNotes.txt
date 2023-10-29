@@ -6,7 +6,6 @@ https://www.youtube.com/watch?v=htznIeWKgg8&t=479s
 -var const let
 --the difference
 --window object
---browser context api
 --stack
 --heap memory
 --execution context
@@ -17,10 +16,9 @@ https://www.youtube.com/watch?v=htznIeWKgg8&t=479s
 -conditionals
 -if else else-if
 --truthy vs falsy
---switch
 -loops
 -for while
---foreach forin forof do-while
+--foreach forin do-while
 -functions
 --callback functions
 -- what is first class fnc
@@ -34,3 +32,6 @@ https://www.youtube.com/watch?v=htznIeWKgg8&t=479s
 -updating object properties
 --how to delete object properties
 --practice some qsn
+
+--browser context api ?
+-- switch very last ma study
