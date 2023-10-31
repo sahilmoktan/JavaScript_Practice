@@ -93,12 +93,12 @@ if(0){
 
 
 
-// --forEach forIn do-while
+// --forEach forIn do-while  =====================================
 // forEach loop is used only for Array
 
-var a = [1,9,6,7,4,3,5]
+var c = [1,9,6,7,4,3,5]
 
-a.forEach(function(ValRefName){  //anynominus function ho, 1 ko reflect auuxa fname chalxa and cotinous
+c.forEach(function(ValRefName){  //anynominus function ho, 1 ko reflect auuxa fname chalxa and cotinous
     // console.log(ValRefName+2)
 })
     
@@ -107,8 +107,53 @@ a.forEach(function(ValRefName){  //anynominus function ho, 1 ko reflect auuxa fn
 //forIn loop is used for obj loop
 
 for (var key in obj){  //for paxi var banaunai parne key lekhera balla in objName lekhne
-    console.log(key, obj[key])
+    // console.log(key, obj[key])
     // console.log(obj[key])
 }
 
-//1:09:48
+
+
+// --callback functions  =====================================
+// function le gareko request ko respond ayepaxi matra code execution hune lai callback fnc 
+//function : run vayesi real time execution navayera paxi ya result kati bela auuxa thaa hunaa. 
+
+setTimeout(function(){  //asynchronous function
+// console.log('2 sec paxi ko hey')
+},2000)
+
+
+// -- what is first class fnc      =====================================
+
+// js ma fnc lai value jasari treat garnu milxa, v xyz = function (){}
+
+function cde (a){
+// a()
+}
+
+cde (function(){console.log('hey');})
+// it is said to have First-class functions when functions in that language are treated like any other variable.
+
+
+// --how arrays are made behind the scenes  ===================================== skip for beginners
+var arr = [1,2,3,4]
+
+arr [-1] =2
+arr [-2] =2
+
+// typeof []    //in console
+//Array.isArray([])
+//Array.isArray({})
+
+
+// --why we can make negative indexes arrays in JavaScript  =====================================
+
+
+// --how to delete object properties  =====================================
+var d ={
+  name : 'yaben',
+  age : 23
+}
+
+delete d.age
+
+
