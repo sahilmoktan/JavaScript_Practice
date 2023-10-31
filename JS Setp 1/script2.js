@@ -131,7 +131,10 @@ function cde (a){
 }
 
 cde (function(){console.log('hey');})
-// it is said to have First-class functions when functions in that language are treated like any other variable.
+// it is said to have First-class functions when functions in that language are treated like any other variable & can me accept as values.
+
+// note: first class fnc who is going as values in other higher order fncs
+// note: higher order fnc who acceps functions as values
 
 
 // --how arrays are made behind the scenes  ===================================== skip for beginners
