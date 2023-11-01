@@ -98,20 +98,40 @@ graduatedStudent.__proto__=normalHuman;
 
 //this call apply bind =============================
 
-// this is an special keyword which has different values in different different places of context, global scope, fnc scope, method scope
+// this: is an special keyword which has different values in different different places of context, global scope, fnc scope, method scope
 
 var xObj ={
     xyz: function(){
     console.log(this)
     }
 }
+// xObj.xyz()
 
-xObj.xyz()
+var buttonX = document.querySelector('button')
+
+buttonX.addEventListener('click', function(){
+    console.log(this)
+    // this.style.color ='red'
+})
+
+// call => u have a function and a variable, function ma vako this ko defult value lai window bata variable tira point garuna 
+
+function eee(){
+    console.log (this.age)
+}
+
+var obj2 = { age:26}
+    
+// eee.call(obj2)
 
 
 
-//pure & inpure fncs =============================
 
-//clousers =============================
+//pure & impure fncs =============================
 
-// 58.00
+function ddd(val){
+    return Math.random()*val;
+}
+
+//ddd (2)
+
