@@ -121,6 +121,8 @@ setTimeout(function(){  //asynchronous function
 // console.log('2 sec paxi ko hey')
 },2000)
 
+// setTimeout(callback, timeinms)
+
 
 // -- what is first class fnc      =====================================
 
