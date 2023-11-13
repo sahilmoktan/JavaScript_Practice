@@ -41,42 +41,45 @@ body {
 .elem {
   display: flex;
   align-items: center;
-  gap: 20px
+  justify-content: center;
+  gap: 20px;
 }
 
 .box {
-    color: rgb(43, 161, 32);
-    font-weight: 600;
-    font-size:  25px;
+  color: rgb(43, 161, 32);
+  font-weight: 600;
+  font-size: 25px;
   display: flex;
   padding: 10px 20px;
   background-color: aliceblue;
   border-radius: 5px;
 }
 
-#pbtm{
-    width: 100%;
-    height: calc(100%-100px);
-    padding: 20px;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+#pbtm {
+  width: 100%;
+  height: calc(100%-100px);
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  color:  rgb(27, 128, 18);;
 }
 
-.bubble{
-    width: 40px;
-    height: 40px;
-    background-color: rgb(43, 161, 32);
-    color: beige;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-weight: 800;
-    font-size: 25px;
+.bubble {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(43, 161, 32);
+  color: beige;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 800;
+  font-size: 25px;
 }
 
 .bubble:hover {
-cursor: pointer;
-background-color: rgb(27, 128, 18);
+  cursor: pointer;
+  background-color: rgb(27, 128, 18);
 }
